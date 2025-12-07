@@ -1,0 +1,23 @@
+{
+  "name": "fr3nds-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for FR3NDS AI chat using OpenAI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["openai", "chat", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
+
+
+
